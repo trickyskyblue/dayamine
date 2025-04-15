@@ -52,7 +52,7 @@ dayaDia3=Number(getData('dayaDia3'));
 const shopItems = [
 	{ id: 'powerUp', x: 100, y: 80, img: 'powerUp.png', priceFn: () => getFibonacci(powerUp), buyFn: buyAttackUp },
 	{ id: 'attackSpeedUp', x: 300, y: 80, img: 'attackspeedup.png', priceFn: () => getFibonacci(attackSpeedUp), buyFn: buyAttackSpeedUp },
-	{ id: 'baseValueUp', x: 500, y: 80, img: 'basevalueup.png', priceFn: () => getFibonacci(baseValueUp), buyFn: buyValueUp }
+	{ id: 'baseValueUp', x: 500, y: 80, img: 'baseValueup.png', priceFn: () => getFibonacci(baseValueUp), buyFn: buyValueUp }
 ];
 
 const shopItemElements = [];
